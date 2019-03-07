@@ -1,9 +1,31 @@
 # Project 1 @cmda-minor-web · 2018-2019
+This project is in commision for the Amsterdam Public Library, the OBA. The assignment is to build a concept and prototype within a week. The prototype should help the visitor to find items from the oba's collection.
 
-## Zoek in de de collectie van de OBA
+## My concept
+My target audience are children and the concept that goes as follows:
 
-Het project vindt plaats bij de Centrale OBA. Maandagochtend is om 10.00 uur de kickoff, vrijdag zijn de presentaties van de resultaten. In een week bouwt iedere student een eigen prototype dat bezoekers kan helpen om items uit de OBA collectie te vinden. Technieken geleerd bij [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-rescue-1819) en [Web App from Scratch](https://github.com/cmda-minor-web/web-app-from-scratch-1819) worden toegepast bij het bouwen van de de prototypes.
+My idea is that the children get a list of icons on a screen. Each icon has its own meaning that belongs to a certain category/genre. When an icon is clicked, all books are shown in a "bookcase". From this list a book can be chosen. See below an example how the screen looks like.
 
-We verzamelen maandagochtend om 09.45 op de 1e verdieping van de Centrale OBA, [Oosterdokskade 143](https://www.google.com/maps/place/OBA+library+of+Amsterdam/@52.3756983,4.9082087,15z/data=!4m2!3m1!1s0x0:0x6b97f693e6ecb494?ved=2ahUKEwioo6OrzubgAhWLNOwKHR6KDQgQ_BIwCnoECAYQCA).
+<img width="1280" alt="screenshot 2019-03-07 14 24 35" src="https://user-images.githubusercontent.com/32538678/53959754-d0202700-40e4-11e9-9062-82e35a2900b2.png">
 
+When a book is selected, the user can scroll down further. If the user scrolls down, a list is displayed on the screen. the list contains information and steps that can be followed. If all steps are followed, the user arrives at the chosen book in the OBA building.
 
+<img width="1280" alt="screenshot 2019-03-07 21 48 55" src="https://user-images.githubusercontent.com/32538678/53988065-e77e0500-4122-11e9-8c78-d6c226b82c9e.png">
+
+## The working functions
+The application uses the OBA api. From the API, various data is retrieved and stored in the local storage. The only functions that actually work are retrieving the genres per icon. But if you click on other images, you will see that the todo list always remains the same. 
+
+#### The faking part
+What I would like to add to the application (if I had more time) is finding the right book in the OBA building through tracing the books and using maps from each floor.
+
+## Download my app
+To see the project you can download or clone this document with the following command:
+
+```
+git clone https://github.com/Karinliu/project-1-1819.git
+
+cd project-1-1819/app
+
+```
+
+Before the application can be viewed, the app must be on a live server.
