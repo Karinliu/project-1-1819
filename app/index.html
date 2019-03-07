@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OBA</title>
+	<link rel="shortcut icon" href="">
+	<link rel="stylesheet" href="./src/css/styles.css">
+	<meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+	<meta http-equiv=“X-UA-Compatible” content=“ie=edge”> 
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html"></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="main">
+	<section id="overview">
+	<h1>Kies je genre!</h1>
+	<form action="">
+  		<input type="checkbox" id="genre1" value="Gezin">
+  		<label class="genre1" for="genre1"></label>
+
+  		<input type="checkbox" id="genre2" value="Verliefdheid">
+  		<label class="genre2" for="genre2"></label>
+  		
+  		<input type="checkbox" id="genre3" value="Vriendschap">
+  		<label class="genre3" for="genre3"></label>
+  		
+  		<input type="checkbox" id="genre4" value="Verdwalen">
+  		<label class="genre4" for="genre4"></label>
+
+  		<input type="checkbox" id="genre5" value="Feesten">
+  		<label class="genre5" for="genre5"></label>
+  		
+  		<input type="checkbox" id="genre6" value="ABC-boeken">
+  		<label class="genre6" for="genre6"></label>
+	</form>
+	</section>
+
+	<section id="listbooks">
+	</section>
+
+	<section class="hidden elementToFade" id="todo">
+		<h1>Waar ligt het boek?</h1>
+		<div class="container">
+			<img src="./src/images/afdeling.jpg" alt="afdeling">
+			<article>
+				<input type="checkbox" id="step1"/>
+				<label for="step1" name="step1">Ga <span>1</span> verdieping naar beneden.</label>
+			</article>
+			<img class="arrow" src="./src/images/arrowblue.png" alt="arrow">
+			
+			<img class="arrow" src="./src/images/arrowpink.png" alt="arrow">
+			<article>
+				<input type="checkbox" id="step2"/>
+				<label for="step2" name="step2">Jij staat op de <span>X</span> markering. Loop vanaf dat punt naar de <span>eindmarkering</span></label>
+			</article>
+			<div>
+				<a href="./src/images/plattegrond.jpg" title="click here to see the full sized image">
+					<img src="./src/images/plattegrond.jpg" alt="plattegrond">
+				</a>
+			</div>
+
+			<img src="./src/images/kast.png" alt="kast">
+			<article>
+				<input type="checkbox" id="step3"/>
+				<label for="step3" name="step1">Kijk op de <span>3e</span> plank van onder</label>
+			</article>
+			<img class="arrow" src="./src/images/arrowblue.png" alt="arrow">
+
+			<img class="arrow" src="./src/images/finish.png" alt="finish">
+			<article>
+				<input type="checkbox" id="step4"/>
+				<label for="step4" name="step2"><span>Zoek</span> naar je gekozen boek!</label>
+			</article>
+			<img src="./src/images/search.png" alt="search">
+		</div>
+	</section>
+
+
+	</main>
+  	<!-- <script type="text/javascript" src="./public/js/lib/routie.js"></script> -->
+	<!-- <script type="text/javascript" src="./src/js/lib/routie.js"></script> -->
+	<script type="module" src="./src/js/script.js"></script>
+</body>
+</html>
