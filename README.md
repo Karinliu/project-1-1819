@@ -18,6 +18,9 @@ The application uses the OBA api. From the API, various data is retrieved and st
 #### The faking part
 What I would like to add to the application (if I had more time) is finding the right book in the OBA building through tracing the books and using maps from each floor.
 
+#### Functions I like to add
+There is one function I wanted to add. That is a function to scan the book when it is found.
+
 ## Download my app
 To see the project you can download or clone this document with the following command:
 
@@ -25,7 +28,6 @@ To see the project you can download or clone this document with the following co
 git clone https://github.com/Karinliu/project-1-1819.git
 
 cd project-1-1819/app
-
 ```
 
 Before the application can be viewed, the app must be on a live server.
