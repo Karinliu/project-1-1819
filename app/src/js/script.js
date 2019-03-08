@@ -119,8 +119,10 @@ console.log(API);
             const element =
         `
         <article class="book ${book.genre}">
-            <img class="img" src="${book.img2}" alt="img" />
-            <p class="summary">${book.summary}</p>
+            <a href="#todo">
+                <img class="img" src="${book.img2}" alt="img" />
+                <p class="summary">${book.summary}</p>
+            </a>
         </article>
         `
             container.insertAdjacentHTML('beforeend', element)

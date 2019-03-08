@@ -10,6 +10,7 @@
 
 html{
     font-family: "Raleway", Verdana, Tahoma;
+        scroll-behavior: smooth;
 }
 
 body{
@@ -186,6 +187,11 @@ form label:hover{
 #listbooks img{
     /*width: 10em;*/
     height: 14em;
+}
+
+#listbooks a{
+    text-decoration: none;
+    color: black;
 }
 
 .hidden{
